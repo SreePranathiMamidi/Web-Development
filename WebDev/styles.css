@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2,
+h3 {
+    background-color: #e2e2e2;
+    padding: 10px;
+    margin: 0;
+    color: #444;
+    cursor: pointer;
+}
+
+.collapsible-content {
+    display: none;
+    padding: 15px;
+    border-left: 2px solid #ccc;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.toc {
+    background-color: #e9ecef;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.toc ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.toc a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.toc a:hover {
+    text-decoration: underline;
+}
